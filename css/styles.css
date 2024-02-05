@@ -1,0 +1,444 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.sticky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.moto-frente,
+.moto-espalda,
+.moto-cross {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 600px) {
+    .menu-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav li {
+        margin: 10px 0;
+    }
+
+    .sticky {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*********Para la pagina Nosotros**********/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 600px) {
+    .menu-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav li {
+        margin: 10px 0;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/**********Para la pagina Cascos**********/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cascos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cascos li {
+    text-align: center;
+    margin: 20px;
+}
+
+.modular,
+.abiertos,
+.integrales {
+    max-width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 600px) {
+    .menu-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav li {
+        margin: 10px 0;
+    }
+
+    .cascos li {
+        margin: 10px 0;
+    }
+}
+
+
+/**********Para la página Indumentaria**********/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.indumentaria ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.indumentaria li {
+    text-align: center;
+    margin: 20px;
+}
+
+.indumentaria img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 600px) {
+    .menu-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav li {
+        margin: 10px 0;
+    }
+
+    .indumentaria li {
+        margin: 10px 0;
+    }
+}
+
+
+/**********Para la pagina Contacto**********/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Media queries*/
+@media only screen and (max-width: 600px) {
+    .menu-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav li {
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+}
